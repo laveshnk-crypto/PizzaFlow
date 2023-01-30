@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "vegetarian",
+    "synonyms": [ "capsicum", "mushroom", "onion", "paneer", "veg", "vegetarian" ],
+    "languageCode": "en"
+  }, {
+    "value": "chicken",
+    "synonyms": [ "barbecue", "bbq", "chicken", "keema", "mutton" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,76 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I would love a "
+    }, {
+      "text": "small",
+      "parameterId": "size"
+    }, {
+      "text": " pizza with "
+    }, {
+      "text": "chicken",
+      "parameterId": "type",
+      "auto": true
+    }, {
+      "text": " pieces on top"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a ",
+      "auto": true
+    }, {
+      "text": "medium",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "mushroom",
+      "parameterId": "type",
+      "auto": true
+    }, {
+      "text": " pizza",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a ",
+      "auto": true
+    }, {
+      "text": "chicken",
+      "parameterId": "type",
+      "auto": true
+    }, {
+      "text": " pizza",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a ",
+      "auto": true
+    }, {
+      "text": "large",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": " pizza",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a pizza",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

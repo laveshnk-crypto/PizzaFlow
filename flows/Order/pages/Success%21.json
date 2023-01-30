@@ -1,0 +1,23 @@
+{
+  "name": "7b33ed95-c2fb-46bf-88eb-4619a50aebb2",
+  "displayName": "Success!",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you for ordering with us! Your pizza is being baked!" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "2b56c04d-4670-46bf-ba48-824af56b5c97"
+  } ]
+}

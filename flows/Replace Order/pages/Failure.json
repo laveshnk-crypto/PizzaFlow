@@ -1,0 +1,23 @@
+{
+  "name": "b62eeb55-ea23-4fe5-9209-10cfa8115ec7",
+  "displayName": "Failure",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Your initiation for a return has failed. Thank you for shopping with us!" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "fa229e51-0440-4f7d-ba0b-fc87052dbaa8"
+  } ]
+}

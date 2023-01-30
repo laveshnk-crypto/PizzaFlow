@@ -1,0 +1,12 @@
+{
+  "name": "9502f721-6955-4d7a-83ba-6ebc95fdea60",
+  "displayName": "order.flow",
+  "parameters": [ {
+    "id": "size",
+    "entityType": "@size"
+  }, {
+    "id": "type",
+    "entityType": "@type"
+  } ],
+  "priority": 500000
+}

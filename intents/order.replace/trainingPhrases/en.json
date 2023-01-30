@@ -1,0 +1,42 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I got an ",
+      "auto": true
+    }, {
+      "text": "incorrect",
+      "parameterId": "incorrect",
+      "auto": true
+    }, {
+      "text": " pizza, could I have a replacement?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "This pizza is all ",
+      "auto": true
+    }, {
+      "text": "wrong",
+      "parameterId": "incorrect",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I got an ",
+      "auto": true
+    }, {
+      "text": "incorrect",
+      "parameterId": "incorrect",
+      "auto": true
+    }, {
+      "text": " order",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

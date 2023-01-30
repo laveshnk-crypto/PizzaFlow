@@ -1,0 +1,30 @@
+{
+  "name": "425f1b99-093d-49b1-967e-9399d7ba1a8c",
+  "displayName": "Confirmation Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Great! You have selected a $session.params.size $session.params.type pizza. Would you like to confirm it?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Success!",
+    "name": "e646de37-3949-4dfa-ac8c-2eefad432df7"
+  }, {
+    "intent": "confirmation.failure",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Failure!",
+    "name": "092f2231-3265-46cb-8771-cb95ca871c72"
+  } ]
+}

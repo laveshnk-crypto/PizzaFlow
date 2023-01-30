@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "incorrect",
+    "synonyms": [ "bad", "didnt", "incorrect", "wrong" ],
+    "languageCode": "en"
+  } ]
+}

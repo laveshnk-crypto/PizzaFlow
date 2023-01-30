@@ -1,0 +1,23 @@
+{
+  "name": "951c8276-d085-42fe-ae9a-ed5036e2a38a",
+  "displayName": "Success!",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Success! Your return has been confirmed. We apologize for any inconveniences." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "35f1ba50-3461-4904-8f32-4579ed71edf5"
+  } ]
+}

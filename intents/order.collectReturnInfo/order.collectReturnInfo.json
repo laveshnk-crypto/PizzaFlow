@@ -1,0 +1,9 @@
+{
+  "name": "5984f5b0-7332-49ab-a1bb-59c77ac09998",
+  "displayName": "order.collectReturnInfo",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000
+}

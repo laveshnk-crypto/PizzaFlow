@@ -1,0 +1,32 @@
+{
+  "name": "71d83b7c-46eb-4215-a54d-56e85d3e034b",
+  "displayName": "Return Collect Information",
+  "form": {
+    "parameters": [ {
+      "displayName": "OrderNumber",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Oh no! We apologize for any inconveniences, this was proabably a mistake on our part. Could you provide the order number?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirm Return",
+    "name": "cda4b4ce-f7aa-4e38-aa98-f7233721ed73"
+  } ]
+}

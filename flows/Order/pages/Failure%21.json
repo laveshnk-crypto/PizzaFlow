@@ -1,0 +1,36 @@
+{
+  "name": "dec6f60c-fc2b-47bc-bb6f-1aa84109e1c9",
+  "displayName": "Failure!",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Oh! Would you like to restart your order or leave?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.failure",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "True Failure",
+    "name": "0c513847-c104-4f34-9bdd-003cac7e1179"
+  }, {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "size",
+        "value": null
+      }, {
+        "parameter": "type",
+        "value": null
+      } ]
+    },
+    "targetPage": "Collect Information",
+    "name": "2f422283-43ea-4bd0-b646-69857db6f74a"
+  } ]
+}

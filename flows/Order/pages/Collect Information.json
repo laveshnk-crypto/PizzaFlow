@@ -1,0 +1,57 @@
+{
+  "name": "38d78eed-3bfc-4b47-bd1f-a25791f9754a",
+  "displayName": "Collect Information",
+  "form": {
+    "parameters": [ {
+      "displayName": "size",
+      "required": true,
+      "entityType": "@size",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What size do you crave for?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "type",
+      "required": true,
+      "entityType": "@type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What type of pizza would you like?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Greetings! Lets begin by collecting some more info about your pizza" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmation Page",
+    "name": "4d437a9c-a918-4894-bb1f-9110839d3f9d"
+  }, {
+    "condition": "$page.params.size = SMALL",
+    "triggerFulfillment": {
+    
+    },
+    "name": "86dd7e3c-72e4-4c67-a4d5-aaade68252e7"
+  } ]
+}

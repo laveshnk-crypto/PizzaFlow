@@ -1,0 +1,30 @@
+{
+  "name": "11312add-0d86-4025-9286-367bb20409c4",
+  "displayName": "Confirm Return",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You have initiated a return on order number $session.params.OrderNumber. Confirm?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Success!",
+    "name": "f6ff56d8-5296-4ca9-b401-b6650ebefb84"
+  }, {
+    "intent": "confirmation.failure",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Failure",
+    "name": "07bce9fc-df78-45ba-892f-f1216bce019e"
+  } ]
+}

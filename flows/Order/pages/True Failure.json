@@ -1,0 +1,23 @@
+{
+  "name": "29d31a94-5d65-4d5f-89ec-75addb2a003e",
+  "displayName": "True Failure",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "No worries! Do come back again to have a tasty pizza waiting for you :)" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "64ed13ac-11eb-4361-a06e-6b22e80330a6"
+  } ]
+}
